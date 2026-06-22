@@ -1,15 +1,17 @@
-# Personal Portfolio Website
-
-A responsive portfolio website built using HTML, CSS, and JavaScript.
+A modern and responsive portfolio website built using HTML, CSS and JavaScript.
 
 ## Features
 - Responsive Design
-- About Section
-- Skills Section
-- Projects Showcase
-- Contact Information
+- About Me Section
+- Skills Showcase
+- Project Gallery
+- Contact Section
+- Interactive UI
 
 ## Technologies Used
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
+
+## Author
+Tanya Singh
