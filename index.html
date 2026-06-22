@@ -1,68 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanya Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanya Singh Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header>
-        <nav>
-            <h2>Portfolio</h2>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <div class="logo">Tanya Singh</div>
 
-    <section class="hero">
-        <h1>Hi, I'm Tanya</h1>
-        <p>Frontend Developer</p>
-        <button id="btn">Hire Me</button>
-    </section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-    <section id="about">
-        <h2>About Me</h2>
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h1>Hi, I'm Tanya Singh</h1>
+
+        <h3>Frontend Developer & B.Tech IT Student</h3>
+
         <p>
-            I am a B.Tech student passionate about web development.
-            I create responsive websites using HTML, CSS and JavaScript.
+            Passionate about building responsive and modern websites
+            using HTML, CSS, JavaScript and Bootstrap.
+            I enjoy creating clean user interfaces and solving
+            real-world problems through technology.
         </p>
-    </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div>HTML</div>
-            <div>CSS</div>
-            <div>JavaScript</div>
-            <div>GitHub</div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>To-Do List App</h3>
-            <p>Task management application.</p>
+        <div class="buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn">Contact Me</a>
         </div>
 
-        <div class="project-card">
+    </div>
+
+    <div class="profile">
+        👩‍💻
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <p class="about-text">
+        I am currently pursuing B.Tech in Information Technology.
+        My focus is on Frontend Development and responsive web design.
+        I enjoy learning new technologies and creating engaging user experiences.
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill">HTML5</div>
+        <div class="skill">CSS3</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Bootstrap</div>
+        <div class="skill">Git</div>
+        <div class="skill">GitHub</div>
+
+    </div>
+
+</section>
+
+<section id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-grid">
+
+        <div class="project">
             <h3>Weather App</h3>
-            <p>Shows weather information using API.</p>
+            <p>Real-time weather information using API integration.</p>
         </div>
-    </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourmail@gmail.com</p>
-    </section>
+        <div class="project">
+            <h3>Expense Tracker</h3>
+            <p>Track and manage daily expenses efficiently.</p>
+        </div>
 
-    <script src="script.js"></script>
+        <div class="project">
+            <h3>Quiz Application</h3>
+            <p>Interactive quiz with score tracking system.</p>
+        </div>
+
+        <div class="project">
+            <h3>Password Generator</h3>
+            <p>Generate strong and secure passwords instantly.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: github.com/yourusername</p>
+
+</section>
+
+<footer>
+    © 2026 Tanya Singh | Portfolio
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
